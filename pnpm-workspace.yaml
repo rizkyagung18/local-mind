@@ -1,0 +1,11 @@
+packages:
+  - apps/*
+  - packages/*
+
+saveExact: true
+engineStrict: true
+strictPeerDependencies: true
+allowBuilds:
+  better-sqlite3: true
+  esbuild: true
+
